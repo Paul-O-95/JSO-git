@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci Series</title>
+</head>
+<body>
+
+
+<style type="text/css">
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10rem;
+        font-family:  Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+        color: #e1e3ee;
+        background-image: linear-gradient(to right, #050764, #082ae9);
+    }
+
+        </style>
+    
+    <script type="text/Javascript">
+
+        var Firstnumber=0;
+        var Secondnumber=1;
+        var result;
+
+        var count = prompt("Kindly, enter the preferred limit of fibonacci secequence no", 0);
+        document.write('Requested fibonacci sequence are listed below' + "<br />");
+        document.write(Firstnumber+"<br />");
+        document.write(Secondnumber+"<br />");
+
+        for(var i=3; i<count; i++) {
+            result = Firstnumber + Secondnumber;
+            Firstnumber = Secondnumber;
+            Secondnumber = result;
+
+            document.write(result+"<br />");
+        }
+    </script>
+</body>
+</html>
