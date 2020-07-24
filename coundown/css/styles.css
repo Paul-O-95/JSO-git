@@ -1,0 +1,80 @@
+
+body{
+    background: rgb(109, 9, 43);
+    align-items: center;
+     
+}
+ div h2{
+    
+    margin-top: 7rem;
+
+    left: 50px;
+    text-align: center;
+    color: rgb(113, 233, 15);
+    text-shadow: darkgreen;
+    font-size: 3rem;
+
+
+} 
+
+div .count_down{
+    margin: 20px auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px 5px 0px 5px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(242, 242, 246);
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+div h2 :hover{
+    color: grey;
+}
+
+@media only screen and (max-width: 1200px){
+    div {
+        font-size: 2rem;
+        font-weight: 900;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    div div {
+        font-size:1.6rem ;
+        font-weight: 800
+    }
+}
+
+@media only screen and (max-width: 600px){
+   div div h2 {
+        margin-top: 5rem;
+    text-align: center;
+    font-size: 0.5rem;
+
+    }
+    div .count_down{
+       
+        font-size: 2rem;
+        font-weight: 700;
+    }
+  }
+
+  @media only screen and (max-width: 320px){
+     div h2 {
+          margin-top: 3rem;
+          text-align: center;
+          font-size: 1.4rem;
+      }
+      div .count_down{
+          font-size: 1.3rem;
+          font-weight: 400;
+          border: 1px solid #ffffff;
+            border-radius: 3px;
+          padding: 0px 3px 0px 3px;
+      }
+  }
+  
