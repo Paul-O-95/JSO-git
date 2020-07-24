@@ -67,11 +67,11 @@ div h2 :hover{
      div h2 {
           margin-top: 3rem;
           text-align: center;
-          font-size: 1.4rem;
+          font-size: .7rem;
       }
-      div .count_down{
+       .count_down{
           font-size: 1.3rem;
-          font-weight: 400;
+          font-weight: 200;
           border: 1px solid #ffffff;
             border-radius: 3px;
           padding: 0px 3px 0px 3px;
